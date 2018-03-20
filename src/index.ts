@@ -1,3 +1,4 @@
+console.log('index!')
 // add styles
 import './style.css'
 // three.js
@@ -18,7 +19,7 @@ renderer.setSize(window.innerWidth, window.innerHeight)
 document.body.appendChild(renderer.domElement)
 
 // add axis to the scene
-let axis = new THREE.AxisHelper(10)
+let axis = new THREE.AxesHelper(10);
 
 scene.add(axis)
 

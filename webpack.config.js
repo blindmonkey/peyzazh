@@ -31,7 +31,7 @@ module.exports = {
         filename: 'index.js'
     },
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.ts$/,
                 loader: 'awesome-typescript-loader'
